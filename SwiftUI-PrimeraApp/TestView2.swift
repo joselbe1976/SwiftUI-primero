@@ -24,9 +24,10 @@ struct TestView2: View {
             DatePicker(selection: $dateChosen,
                        displayedComponents: .hourAndMinute, label: { Text("Alta") })
             
+            // asi el DatePicker se oculta
             Form{
                 DatePicker(selection: $dateChosen,
-                                      displayedComponents: .hourAndMinute, label: { Text("Baja") })
+                                      displayedComponents: .hourAndMinute, label: { Text("Fecha de Baja") })
             }
         
         }
